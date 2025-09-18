@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Script qui affiche les ports TCP et UDP en écoute avec le PID et le nom du programme
 
-sudo netstat -lpn
+sudo ss -lntuap
