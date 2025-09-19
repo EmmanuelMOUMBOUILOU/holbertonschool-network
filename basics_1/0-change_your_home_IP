@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# This script updates /etc/hosts so that localhost resolves to 127.0.0.2 and facebook.com to 8.8.8.8
+
+# Sauvegarde du fichier original avant modification
+cp /etc/hosts /etc/hosts.bak
+
+# Supprime d’anciennes entrées localhost et facebook.com si elles existent
+sed -i '/localhost/d' /etc/hosts
+sed -i '/facebook.com/d' /etc/hosts
+
+# Ajoute les nouvelles résolutions
+echo "127.0.0.2   localhost" >> /etc/hosts
+echo "8.8.8.8     facebook.com" >> /etc/hosts
