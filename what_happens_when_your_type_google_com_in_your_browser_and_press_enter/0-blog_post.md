@@ -100,9 +100,8 @@ Finally, the browser receives the response:
 
 ## Conclusion
 
-From DNS resolution to database queries, typing `https://www.google.com` triggers a complex chain of events. Full-Stack Engineers benefit from understanding this process to debug issues, optimize performance, and ensure security.
+From DNS resolution to database queries, typing `google.com` triggers a complex chain of events. Full-Stack Engineers benefit from understanding this process to debug issues, optimize performance, and ensure security.
 
 ---
 
-**Published on:** [Medium/LinkedIn link here]
-
+**Published on:** [[Medium link here](https://medium.com/@10529_76587/what-happens-when-you-type-google-com-in-your-browser-and-press-enter-007d70ba41ab)]
