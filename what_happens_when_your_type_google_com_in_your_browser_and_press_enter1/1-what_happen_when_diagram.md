@@ -1,3 +1,3 @@
 ### **Diagram**
 
-![Diagramme_de_processus_de_navigation_web (2)](./images/Diagramme_de_processus_de_navigation_web%20(2).png)
+![Diagramme_de_processus_de_navigation_web](./images/1-what_happen_when_diagram.png)
